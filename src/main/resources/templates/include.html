@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<footer th:fragment="footer1">
+    <p>ALL RIGHTS RESREVED</p>
+</footer>
+<footer th:fragment="footer2(start,now)">
+    <p th:text="|${start} - ${now} all rightes resvered|"></p>
+</footer>
+</html>
